@@ -11,8 +11,12 @@ public class DeviceFactory {
         switch (type) {
             case ceiling:
                 return new CeilingDevice(id);
+            case ceiling1:
+                return new CeilingDevice(id);
             case color:
                 return new WonderDevice(id);
+            case ct_bulb:
+                return new MonoDevice(id);
             case mono:
                 return new MonoDevice(id);
             case stripe:
