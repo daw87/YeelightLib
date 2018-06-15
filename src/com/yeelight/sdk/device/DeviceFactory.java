@@ -29,6 +29,12 @@ public class DeviceFactory {
             case ceiling:
                 device = new CeilingDevice(bulbInfo.get("id"));
                 break;
+            case ceiling1:
+                device = new CeilingDevice(bulbInfo.get("id"));
+                break;
+            case ct_bulb:
+                device = new MonoDevice(bulbInfo.get("id"));
+                break;
             case color:
                 device = new WonderDevice(bulbInfo.get("id"));
                 break;
