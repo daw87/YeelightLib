@@ -206,8 +206,12 @@ public class DeviceManager {
         switch (device.getDeviceType()) {
             case ceiling:
                 return "Yeelight LED Ceiling";
+            case ceiling1:
+                return "Yeelight LED Ceiling";
             case color:
                 return "Yeelight Color LED Bulb";
+            case ct_bulb:
+                return "Yeelight White LED Bulb V2";
             case mono:
                 return "Yeelight White LED Bulb";
             case stripe:
